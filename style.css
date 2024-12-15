@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: "Monstserrat";
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 40px;
+}
+
+.header ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+}
+
+.one{
+    background-color: #204E41;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    color: white;
+}
+
+.two{
+    padding: 8px 35px; 
+    border-radius: 8px;
+    border: 2px solid #204E41;
+    background-color: white;
+    font-size: 22px;
+}
+
+.hero{
+    height: 600px;
+    padding: 40px 100px;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url("https://www.google.com/imgres?q=afgooye&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D2325565497748701&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fbmmgq%2Fposts%2Fafgooye-soomaaliya-%2F2325565664415351%2F&docid=-uZzSrho6lTakM&tbnid=AhRCdMulejLw9M&vet=12ahUKEwiapK_lgrGJAxVLgP0HHaN8ExEQM3oECE4QAA..i&w=720&h=480&hcb=2&ved=2ahUKEwiapK_lgrGJAxVLgP0HHaN8ExEQM3oECE4QAA");
+}
+
+.hero h1{
+    font-size: 90px;
+    padding-top: 50x;
+}
+
+.hero p{
+    padding: 0px 250px;
+}
+
+.thre{
+    background-color: #204E41;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    color: white;
+    margin-top: 30px;
+}
+
+.four{
+    padding: 8px 35px; 
+    border-radius: 8px;
+    border: 2px solid #204E41;
+    background-color: white;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.passion-left{
+    width: 500px;
+}
+.btn{
+    background-color: #204E41;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    color: white;
+    margin-top: 20px;
+}
+.passion-parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.passion-left h1{
+    font-size: 60px;
+}
+.passion-right img{
+    width: 500px;
+    height: 440px;
+    border-radius: 12px;
+}
+.passion-right{
+    position: relative;
+}
+.passion-right h2{
+    background-color: white;
+    width: 170px;
+    padding: 20px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 60px;
+    left: 140px;
+}
+.service{
+    text-align: center;
+}
+.service p{
+    margin: 20px 280px;
+    font-size: 18px;
+}
+.service h1{
+    font-size: 60px;
+    color:#204E41;
+}
+.servise1{
+    width: 250px;
+    height: 290px;
+    background-color:#fff;
+    margin: 20px ;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 3px 6px 3px gray; 
+
+}
+.servise1 h1{
+    padding-top: 50px;
+}
+.servise-parent{
+    display: flex;
+    justify-content: center;
+
+}
+.service1{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.product1{
+    width: 250px;
+    height: 400px;
+    margin: 20px;
+    background-color: rgb(212, 198, 178);
+    border-radius: 8px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.product1 img{
+    height: 120px;
+    width: 120px;
+    border-radius: 18px;
+    margin-top: 30px;
+}
+.product-parent{
+    display: flex;
+    justify-content: center;
+}
+.parent1 h1{
+    display: flex;
+  text-align: center;
+    
+}
+
+.sustain{
+    height: 400px;
+    color: #fff;
+    padding-top: 140px;
+    padding-left: 90px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url("https://www.google.com/imgres?q=afgooye&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D2325565497748701&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fbmmgq%2Fposts%2Fafgooye-soomaaliya-%2F2325565664415351%2F&docid=-uZzSrho6lTakM&tbnid=AhRCdMulejLw9M&vet=12ahUKEwiapK_lgrGJAxVLgP0HHaN8ExEQM3oECE4QAA..i&w=720&h=480&hcb=2&ved=2ahUKEwiapK_lgrGJAxVLgP0HHaN8ExEQM3oECE4QAA");
+
+}
+.sustain{
+    font-size: 40px;
+}
+.benefit-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+}
+.benefit-left{
+    width: 400px;
+    margin-top: 70px;
+}
+
+.benefit-right{
+    width: 600px;
+    height: 600px;
+    background-color: #204E41;
+}
+.benefit-left h1{
+    font-size: 60px;
+}
+.benefit-left p{
+    margin: 50px 0px;
+}
+.icon{
+    display:flex;
+    gap: 40px;
+    margin-top: 70px;
+}
+.icon i{
+    font-size: 60px;
+}
+
+.review{
+    width: 100%;
+    height: 300px;
+    background-color: #204E41;
+}
+.t-parent{
+    display: grid;
+    grid-template-columns: 50px 900px 50px;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+
+.sustain{
+
+    height: 300px;
+    color: white;
+    padding-top: 140px;
+    padding-left: 90px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://img.freepik.com/free-photo/photorealistic-view-tree-nature-with-branches-trunk_23-2151478084.jpg?t=st=1730013045~exp=1730016645~hmac=13ef1b72c3ee313e7e8d0a97e1abbeaa4434280173306f85ba032bd1d367ca20&w=826);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sustain h1{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.benefit-left{
+    width: 500px;
+}
+
+.benefit-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+}
+
+.benefit-right{
+    width: 500px;
+    height: 500px;
+    border-radius: 22px;
+    background-color: #204E51;
+    color: white;
+    
+}
+
+.benefit-left h1{
+    font-size: 60px;
+}
+
+.benefit-left p{
+    margin: 40px 0px;
+}
+
+.icon{
+    display: flex;
+    gap: 60px;
+    margin: 50px 60px;
+    
+}
+
+.icon i{
+    font-size: 60px;
+}
+
+.review{
+    width: 100%;
+    height: 300px;
+    background-color: #204E51;
+}
+
+.t-parent{
+    display: grid;
+    grid-template-columns: 50px 900px 50px;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.t-parent i {
+    height: 50px;
+    color: #204E51;
+    font-size: 60px;
+    margin-top: 140px;
+    background-color: rgba(56, 54, 54, 0.178);
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 20px;
+    font-size: 60px;
+    
+}
+
+.review-left img{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    border-radius: 10px;
+}
+.review{
+    display: flex;
+   margin-left: 20px;
+   border-radius: 10px;
+}
+.review-right k{
+   font-size: 40px;
+   list-style: none;
+   color: yellow;
+   margin-top: 40px;justify-content: center;
+
+}
+
+
+.review-right h1 , h4{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.review-right p{
+    color: white;
+    width: 400px;
+}
+
+.farm{
+    height: 400px;
+    width: 100%;
+    background-color: #0e5860;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.farm-left{
+    padding: 50px 70px;
+    width: 350px;
+    gap: 20px;
+
+}
+
+.farm-left h1{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.farm-left p{
+    margin-bottom: 20px;
+}
+
+.farm-left i{
+    font-size: 30px;
+    
+    
+
+}
+
+.farm-right{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    color: white;
+    padding-top:60px;
+}
+
+
+@media  screen and (max-width:600px) {
+    .header ul{
+        display: none;
+ }
+}
+
+    .header button{
+        display: none;
+    }
+    
+
+    
+    
